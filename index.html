@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<!-- Nombre: Natalia Correa-->
+<1-- Asignatura: Programación y diseño de aplicaciones web-->
+<!-- Actividad 1: Crear una aplicacion de mi perfil personal-->
+<html lang="es">
+<!-- la etiqueta DOCTYPE html indica el tipo de documento y SIEMPRE va-->
+<!-- la etiqueta de html da por inicio el documento completo-->
+<head>
+    <!-- En la etiqueta del head se incluye el titulo de la página, los metadatos y
+    los enlaces externos como el css, estilos y apis de letras, iconos y demás -->
+
+    <meta charset="UTF-8">
+    <meta name="description" content="perfil profesional Natalia Correa">
+    <meta name="keywords" content="Campañas, Marcas profesionales, Conciertos, Festivales">
+    <meta name="author" content="Natalia Correa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<!-- La etiqueta de meta,son los metadatos que nos ayuda a configurar nuestro diseño -->
+    
+    <title>markat | Natalia Correa</title>
+<!-- la etiqueta title es el titulo de como se muestra en el navegador -->
+</head> <!--Aqui termina y se cierra el head-->
+
+<!-- Aqui INICIA EL BODY-->
+<body>
+    <!--la etiqueta div es para crear una división en la página-->
+
+    <!-- AQUI INICIA EL CONTENIDO PRINCIPAL-->
+<main class="card">
+
+    <div class="cover">
+        <img src="cover.jpg" alt="Foto de cover">
+
+    </div> 
+
+    <!--SECCIÓN DEL PERFIL-->
+
+    <section class="profile">
+
+<div class="profile-image">
+ <img src="Foto.JPG" alt="Foto de Natalia Correa" width="500" height="700">   
+</div>
+ 
+ 
+ <h1> Lic. Natalia Correa Juanico </h1>
+ <h2> Especialista en Administración del entretenimiento </h2>
+ <p class ="profile-description">
+     Administradora de empresas de entretenimiento.
+     Experta en organizar eventos y encargarme de hacer campañas creativas 
+
+
+     </p>
+
+ <!--REDES SOCIALES-->
+
+ <div class="social-links">
+
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/?hl=es" target="_blank" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <!-- LinkedIn -->
+    <a href="https://mx.linkedin.com/" target="_blank" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+
+    <!-- GitHub -->
+    <a href="https://github.com/NataliaCorreaJuanico" target="blank="aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+    </a>
+
+<!-- TikTok -->
+<a href="https://www.tiktok.com/es/" target="_blank" aria-label="TikTok">
+<i class="fa-brands fa-tiktok"></i>
+</a>
+
+
+</div>
+
+
+<!--NAVEGACIÓN PRINCIPAL de la Tarjeta-->
+<nav class="tabs">
+    <button class="tab active" data-section="about">
+        Sobre NatyCo
+    </button>
+
+    <button class="tab" data-section="experience">
+        Experiencia
+    </button>
+
+    <button class="tab" data-section="projects">
+        Proyectos
+    </button>
+
+    <button class="tab" data-section="contact">
+        Contacto
+    </button>
+
+
+</nav>
+
+<!--Contenido de las secciones: Sobre mi, Experiencia, Proyectos, Contacto-->
+
+<div class="content">
+<!-- Seccion de "Sobre mi"-->
+<section id="about" class="tab-content active">
+
+    <h3>Sobre mí</h3>
+
+    <p>
+    Soy Administradora de Empresas en el entretenimiento con estudios Universitarios en La escuela EBC.
+    </p>
+
+    <p>
+    Trabajo haciendo las campañas creativas de mini negocios al igual que,
+    soy coordinadora de promociones con alianzas de marcas como Ocesa
+    </p>
+
+    <div class="skills">
+
+    <span>Puntual</span>
+    <span>Responsable</span>
+    <span>Organizada</span>
+    <span>Creativa</span>
+     <span>Lider</span>
+    <span>Campañas</span>
+
+    </div>
+</section>
+<!-- Sección "Experiencia"-->
+<section id="experience" class="tab-content">
+
+    <h3>Experiencia</h3>
+
+    <div class="experience-item">
+
+    <span class="experience-date">
+   Educación</span>
+
+    <h4>Administradora de empresas de entretenimiento</h4>
+
+    <p>Organizadora de eventos y campañas,Colaboraciones digitales
+    </p>
+
+    </div>
+
+
+    <div class="experience-item">
+
+    <span class="experience-date">
+    Tecnología</span>
+
+    <h4>Desarrollo y organización de eventos </h4>
+
+    <p> Eventos creativos y bien organizados, eventos con publicidad completa </p>
+
+    </div>
+
+    <div class="experience-item">
+
+        <span class="experience-date">
+        Tecnología</span>
+    
+        <h4> Trabajo de marketing y promoción de artistas o proyectos </h4>
+    
+        <p> Gestionar y representar talento artistico </p>
+    
+        </div>
+
+
+    </section>
+
+    <section id="projects" class="tab-content">
+
+        <h3>Mis proyectos</h3>
+
+        <p class="projects-intro">
+     Aquí iremos agregando los proyectos quedesarrollemos.
+        </p>
+
+    <div class="experience-item">
+
+        <!-- Proyecto 1 -->
+
+        <article class="project">
+       <div class="project-icon">
+         <i class="	fa fa-cubes"></i>
+     </div>
+
+      <div class="project-info">
+      <h4>Proyecto de Ocesa</h4>
+                <p>
+                Organizadora de los conciertos y ayudante de que el equipo funcione a la perfección.</p>
+
+                <a href="#" target="_blank">
+                    Ver proyecto
+                    <i class="fa fa-cubes"></i>
+                </a>
+            </div>
+        </article>
+
+        <!--PROYECTO 2 -->
+        <article class="project">
+            <div class="project-icon">
+                <i class="fa-solid fa-chart-column"></i>
+            </div>
+
+            <div class="project-info">
+                <h4>Proyecto de Pantene</h4>
+                <p>
+                    Creadora de las campañas y publicidad.</p>
+
+                <a href="#" target="_blank">
+                    Ver proyecto
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </article>
+
+
+    </section>
+
+<section id="contact" class="tab-content">
+            <h3>Contacto</h3>
+             <p>¿Tienes un proyecto, una idea o quieres trabajar conmigo?</p>
+                <div class="contact-links">
+                    <a href="mailto:correo@ejemplo.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Envíame un correo</span>
+                    </a>
+                    <a href="#" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                    </a>
+                        <a href="#" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>Instagram</span>
+    </a>
+  </div>
+</section>
+
+    <div class="experience-item">
+
+    <span class="experience-date">
+    Tecnología</span>
+
+    <h4>Desarrollo y organización de eventos </h4>
+
+    <p> Eventos creativos y bien organizados, eventos con publicidad completa </p>
+
+    </div>
+
+    </section>
+
+</div>
+
+
+
+    </section>
+</main>
+
+
+<script src="script.js"></script>
+
+
+</body> <!--Aqui se CIERRA EL BODY-->
+
+
+
+</div>
+
+
+
+    </section>
+</main>
+
+
+<script src="script.js"></script>
+
+
+</body> <!--Aqui se CIERRA EL BODY-->
+
+</html>
